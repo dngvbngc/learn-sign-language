@@ -1,0 +1,31 @@
+import { Input } from "@chakra-ui/react";
+
+interface Props {
+  lyric: string;
+}
+
+const MissingWordInput = ({ lyric }: Props) => {
+  const words = lyric.split(" ").filter((word: string) => word.trim() !== "");
+  const randomIndex = Math.floor(Math.random() * words.length);
+  const rawMissingWord = words[randomIndex].match(/^([\w']+)([.,!?;:'"-]*)$/);
+  const missingWord = rawMissingWord ? rawMissingWord[1] : words[randomIndex];
+  console.log(missingWord.length);
+  const punctuation = rawMissingWord ? rawMissingWord[2] : "";
+
+  return (
+    <>
+      {words.slice(0, randomIndex).join(" ")}
+      <Input
+        marginLeft={2}
+        name='missingWord'
+        width={100}
+        size='md'
+        textAlign='center'
+      />
+      {punctuation + " "}
+      {words.slice(randomIndex + 1, words.length).join(" ")}
+    </>
+  );
+};
+
+export default MissingWordInput;

@@ -3,6 +3,7 @@ import transcripts from "../data/transcripts";
 import { useState } from "react";
 import { Button, Heading, Text } from "@chakra-ui/react";
 import VideoPlayer from "./components/videoPlayer";
+import MissingWordInput from "./components/MissingWordInput";
 
 const App = () => {
   const transcript = transcripts[0];
@@ -26,6 +27,7 @@ const App = () => {
     currentLine < videoPortions.length - 1
       ? videoPortions[currentLine + 1].timestamp
       : transcript.duration;
+  const currentLyric = transcript.content[currentLine].lyrics;
 
   return (
     <>
@@ -33,7 +35,7 @@ const App = () => {
         {transcript.name} - {transcript.artist}
       </Heading>
       <VideoPlayer startTime={startTime} endTime={endTime}></VideoPlayer>
-      <Text>{transcript.content[currentLine].lyrics}</Text>
+      <MissingWordInput lyric={currentLyric} />
       <Button onClick={() => setCurrentLine(currentLine + 1)}>Click</Button>
     </>
   );
