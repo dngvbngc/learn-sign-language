@@ -1,11 +1,11 @@
-import { extractTimestampsAndLyrics } from "./utils.ts/videoUtils";
-import transcripts from "../data/transcripts";
+import { extractTimestampsAndLyrics } from "../utils.ts/videoUtils";
+import transcripts from "../../data/transcripts";
 import { useState } from "react";
 import { Button, Heading, Text } from "@chakra-ui/react";
-import MissingWordInput from "./components/MissingWordInput";
-import VideoPlayer from "./components/VideoPlayer";
+import MissingWordInput from "../components/MissingWordInput";
+import VideoPlayer from "../components/VideoPlayer";
 
-const App = () => {
+const ReadingGamePage = () => {
   const transcript = transcripts[0];
   const videoPortions = extractTimestampsAndLyrics(transcript.content);
   const [currentLine, setCurrentLine] = useState(0);
@@ -43,4 +43,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default ReadingGamePage;
