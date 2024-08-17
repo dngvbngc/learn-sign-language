@@ -222,4 +222,122 @@ export default [
       },
     ],
   },
+  {
+    name: "Somebody Else",
+    artist: "The 1975",
+    duration: 5 * 60 + 14,
+    url: "https://www.youtube.com/embed/AiZykGTuBNA",
+    content: [
+      {
+        timestamp: "0:20",
+        lyrics:
+          "So, you I heard found somebody else, and at first I thought it was a lie.",
+      },
+      {
+        timestamp: "0:49",
+        lyrics:
+          "I took all my things that make sounds. The rest I can do without.",
+      },
+      {
+        timestamp: "1:04",
+        lyrics:
+          "I don't want your body, but I hate to think about you with somebody else.",
+      },
+      {
+        timestamp: "1:13",
+        lyrics:
+          "Our love has gone cold. You're intertwining your soul with somebody else.",
+      },
+      {
+        timestamp: "1:23",
+        lyrics:
+          "I'm looking through you, while you're looking through your phone and then leaving with somebody else.",
+      },
+      {
+        timestamp: "1:32",
+        lyrics:
+          "No, I don't want your body. But I'm picturing your body with somebody else.",
+      },
+      {
+        timestamp: "2:01",
+        lyrics:
+          "Baby, I know, this ain't the last time that I'll see your face.",
+      },
+      {
+        timestamp: "2:09",
+        lyrics:
+          "And c'mon baby, I know. You said you'd find someone to take my place.",
+      },
+      {
+        timestamp: "2:20",
+        lyrics:
+          "No, I just don't believe that you have got it in you. Cause we are just gonna keep doing it every time.",
+      },
+      {
+        timestamp: "2:29",
+        lyrics:
+          "I start to believe in anything you're saying. I'm reminded that I should be gettin' over it.",
+      },
+      {
+        timestamp: "2:40",
+        lyrics:
+          "I don't want your body, but I hate to think about you with somebody else.",
+      },
+      {
+        timestamp: "2:49",
+        lyrics:
+          "Our love has gone cold. You're intertwining your soul with somebody else.",
+      },
+      {
+        timestamp: "2:58",
+        lyrics:
+          "I'm looking through you, while you're looking through your phone and then leaving with somebody else.",
+      },
+      {
+        timestamp: "3:07",
+        lyrics:
+          "No, I don't want your body. But I'm picturing your body with somebody else.",
+      },
+      {
+        timestamp: "3:37",
+        lyrics:
+          "Get someone you love? Get someone you need? Fuck that, get money. I can't give you my soul cause you're never alone.",
+      },
+      {
+        timestamp: "3:47",
+        lyrics:
+          "Get someone you love? Get someone you need? Get money. I can't give you my soul cause we're never alone.",
+      },
+      {
+        timestamp: "3:56",
+        lyrics:
+          "Get someone you love? Get someone I need? Get money. I can't give you my soul cause you're never alone.",
+      },
+      {
+        timestamp: "4:05",
+        lyrics:
+          "Get someone you love? Get someone you need? Get money. I can't give you my soul cause we're never alone.",
+      },
+      {
+        timestamp: "4:33",
+        lyrics:
+          "I don't want your body, but I hate to think about you with somebody else.",
+      },
+      {
+        timestamp: "4:42",
+        lyrics:
+          "Our love has gone cold. You're intertwining your soul with somebody else.",
+      },
+      {
+        timestamp: "4:51",
+        lyrics:
+          "I'm looking through you, while you're looking through your phone and then leaving with somebody else.",
+      },
+      {
+        timestamp: "5:01",
+        lyrics:
+          "No, I don't want your body. But I'm picturing your body with somebody else.",
+      },
+    ],
+  },
 ];
