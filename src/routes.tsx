@@ -4,6 +4,7 @@ import ErrorPage from "./pages/ErrorPage";
 import ReadingGamePage from "./pages/ReadingGamePage";
 import SigningPage from "./pages/SigningPage";
 import Layout from "./pages/Layout";
+import ReadingPage from "./pages/ReadingPage";
 
 const router = createBrowserRouter([
   {
@@ -14,8 +15,9 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       {
         path: "reading",
-        element: <ReadingGamePage />,
+        element: <ReadingPage />,
       },
+      { path: "reading/:id", element: <ReadingGamePage /> },
       {
         path: "signing",
         element: <SigningPage />,

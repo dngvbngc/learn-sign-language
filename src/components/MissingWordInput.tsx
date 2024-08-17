@@ -22,7 +22,7 @@ const MissingWordInput = ({ lyric, onCorrectInput }: Props) => {
         size='md'
         textAlign='center'
         onChange={(e) => {
-          if (e.target.value === missingWord) {
+          if (e.target.value.toLowerCase() === missingWord.toLowerCase()) {
             onCorrectInput();
             e.target.value = "";
           }

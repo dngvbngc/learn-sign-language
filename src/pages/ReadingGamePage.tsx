@@ -4,9 +4,11 @@ import { useState } from "react";
 import { Button, Heading, Text } from "@chakra-ui/react";
 import MissingWordInput from "../components/MissingWordInput";
 import VideoPlayer from "../components/VideoPlayer";
+import { useParams } from "react-router-dom";
 
 const ReadingGamePage = () => {
-  const transcript = transcripts[0];
+  const { id } = useParams();
+  const transcript = transcripts[parseInt(id!)];
   const videoPortions = extractTimestampsAndLyrics(transcript.content);
   const [currentLine, setCurrentLine] = useState(0);
 
@@ -34,7 +36,11 @@ const ReadingGamePage = () => {
       <Heading>
         {transcript.name} - {transcript.artist}
       </Heading>
-      <VideoPlayer startTime={startTime} endTime={endTime} />
+      <VideoPlayer
+        url={transcript.url}
+        startTime={startTime}
+        endTime={endTime}
+      />
       <MissingWordInput
         lyric={currentLyric}
         onCorrectInput={() => setCurrentLine(currentLine + 1)}
