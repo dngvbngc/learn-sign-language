@@ -26,14 +26,14 @@ const NavBar = () => {
         </Link>
       </HStack>
       <HStack spacing={4} paddingRight={2}>
-        <Link to='/reading'>
-          <Text fontWeight='semibold' fontSize='medium' color='black'>
-            Reading
-          </Text>
-        </Link>
         <Link to='/signing'>
           <Text fontWeight='semibold' fontSize='medium' color='black'>
             Signing
+          </Text>
+        </Link>
+        <Link to='/reading'>
+          <Text fontWeight='semibold' fontSize='medium' color='black'>
+            Reading
           </Text>
         </Link>
         <ColorModeButton />
