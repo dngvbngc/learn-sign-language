@@ -16,7 +16,7 @@ const NavBar = () => {
         </Link>
         <Link to='/'>
           <Text
-            paddingLeft={2}
+            paddingLeft={1}
             fontWeight='bold'
             fontSize='x-large'
             color='black'
@@ -27,12 +27,12 @@ const NavBar = () => {
       </HStack>
       <HStack spacing={4} paddingRight={2}>
         <Link to='/reading'>
-          <Text fontWeight='semibold' fontSize='large' color='black'>
+          <Text fontWeight='semibold' fontSize='medium' color='black'>
             Reading
           </Text>
         </Link>
         <Link to='/signing'>
-          <Text fontWeight='semibold' fontSize='large' color='black'>
+          <Text fontWeight='semibold' fontSize='medium' color='black'>
             Signing
           </Text>
         </Link>

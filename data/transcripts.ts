@@ -1,8 +1,10 @@
 export default [
   {
+    id: 0,
     name: "My Love Mine All Mine",
     artist: "Mitski",
     duration: 2 * 60 + 27,
+    language: "ASL",
     url: "https://www.youtube.com/embed/QLOUXJdE4UY",
     content: [
       {
@@ -67,9 +69,11 @@ export default [
     ],
   },
   {
+    id: 1,
     name: "Lips Are Movin",
     artist: "Meghan Trainor",
     duration: 3 * 60 + 2,
+    language: "ASL",
     url: "https://www.youtube.com/embed/LFirKOPduyU",
     content: [
       {
@@ -223,9 +227,11 @@ export default [
     ],
   },
   {
+    id: 2,
     name: "Somebody Else",
     artist: "The 1975",
     duration: 5 * 60 + 14,
+    language: "ASL",
     url: "https://www.youtube.com/embed/AiZykGTuBNA",
     content: [
       {
