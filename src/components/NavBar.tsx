@@ -31,7 +31,7 @@ const NavBar = () => {
             Reading
           </Text>
         </Link>
-        <Link to='/reading'>
+        <Link to='/signing'>
           <Text fontWeight='semibold' fontSize='large' color='black'>
             Signing
           </Text>
