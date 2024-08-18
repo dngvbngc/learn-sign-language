@@ -23,11 +23,13 @@ const HomePage = () => {
           Learn Sign Language!
         </Heading>
         <HStack justifyContent='center'>
-          <Link to='/reading'>
-            <Button>Learn Reading</Button>
-          </Link>
           <Link to='/signing'>
             <Button>Learn Signing</Button>
+          </Link>
+          <Link to='/reading'>
+            <Button backgroundColor='brand.100' color='black'>
+              Learn Reading
+            </Button>
           </Link>
         </HStack>
         <Text fontStyle='helvetica' fontSize='large' padding={5}>

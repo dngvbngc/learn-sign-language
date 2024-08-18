@@ -237,7 +237,7 @@ export default [
       {
         timestamp: "0:20",
         lyrics:
-          "So, you I heard found somebody else, and at first I thought it was a lie.",
+          "So, I heard you found somebody else, and at first I thought it was a lie.",
       },
       {
         timestamp: "0:49",
@@ -282,7 +282,7 @@ export default [
       {
         timestamp: "2:29",
         lyrics:
-          "I start to believe in anything you're saying. I'm reminded that I should be gettin' over it.",
+          "I start to believe in anything you're saying. I'm reminded that I should be getting over it.",
       },
       {
         timestamp: "2:40",

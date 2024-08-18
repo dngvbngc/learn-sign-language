@@ -1,4 +1,4 @@
-import { Input } from "@chakra-ui/react";
+import { Input, Text } from "@chakra-ui/react";
 
 interface Props {
   lyric: string;
@@ -19,7 +19,7 @@ const MissingWordInput = ({ lyric, onCorrectInput }: Props) => {
         marginLeft={2}
         name='missingWord'
         width={100}
-        size='md'
+        size={{ base: "sm", md: "md" }}
         textAlign='center'
         onChange={(e) => {
           if (e.target.value.toLowerCase() === missingWord.toLowerCase()) {
@@ -28,8 +28,7 @@ const MissingWordInput = ({ lyric, onCorrectInput }: Props) => {
           }
         }}
       />
-      {punctuation + " "}
-      {words.slice(randomIndex + 1, words.length).join(" ")}
+      {punctuation + " " + words.slice(randomIndex + 1, words.length).join(" ")}
     </>
   );
 };
