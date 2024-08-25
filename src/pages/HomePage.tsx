@@ -36,7 +36,12 @@ const HomePage = () => {
           Practice reading ASL through interactive music games, and signing
           through your webcam. Your sign to sign!
         </Text>
-        <Text fontSize='small'>@dngvbngc 2024. Github.</Text>
+        <Text fontSize='small'>
+          @dngvbngc 2024.{" "}
+          <Link to='https://github.com/dngvbngc/learn-sign-language'>
+            Github.
+          </Link>
+        </Text>
       </Box>
       <Box>
         <Image src={funfacts} maxHeight='75vh' />
