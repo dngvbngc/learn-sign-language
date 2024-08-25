@@ -23,7 +23,10 @@ const ReadingPage = () => {
   const [languageFilter, setLanguageFilter] = useState("All");
   const [textFilter, setTextFilter] = useState("");
 
-  const languages = ["All", "ASL"];
+  const languages = [
+    "All",
+    ...Array.from(new Set(transcripts.map((t) => t.language))),
+  ];
 
   const filteredGamesByLanguages =
     languageFilter !== "All"

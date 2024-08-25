@@ -346,4 +346,66 @@ export default [
       },
     ],
   },
+  {
+    id: 3,
+    name: "The Night We Met",
+    artist: "Lord Huron",
+    duration: 2 * 60 + 26,
+    language: "PSE",
+    url: "https://www.youtube.com/embed/jnalXtvecww",
+    content: [
+      {
+        timestamp: "0:27",
+        lyrics:
+          "I am not the only traveller who has not repaid his debts.",
+      },
+      {
+        timestamp: "0:37",
+        lyrics:
+          "I've been searching for a trail to follow to take me back to the night we met.",
+      },
+      {
+        timestamp: "0:49",
+        lyrics: "And then I can tell myself what the hell I'm supposed to do.",
+      },
+      {
+        timestamp: "0:57",
+        lyrics: "And then I can tell myself not to ride along with you.",
+      },
+      {
+        timestamp: "1:04",
+        lyrics:
+          "I had all, and then most of you, some, and now none of you.",
+      },
+      {
+        timestamp: "1:17",
+        lyrics:
+          "Take me back to the night we met. I don't know what I'm supposed to do, haunted by the ghost of you.",
+      },
+      {
+        timestamp: "1:28",
+        lyrics:
+          "Take me back to the night we met, when the night was full of terrors, and your eyes filled with tears.",
+      },
+      {
+        timestamp: "1:39",
+        lyrics:
+          "When you had not touched me yet, take me back to the night we met.",
+      },
+      {
+        timestamp: "1:49",
+        lyrics: "I had all, and then most of you, some, and now none of you.",
+      },
+      {
+        timestamp: "1:59",
+        lyrics:
+          "Take me back to the night we met, I don't know what I'm supposed to do.",
+      },
+      {
+        timestamp: "2:05",
+        lyrics:
+          "Haunted by the ghost of you, take me back to the night we met.",
+      },
+    ],
+  },
 ];
