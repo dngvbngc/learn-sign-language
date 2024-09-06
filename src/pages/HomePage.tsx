@@ -23,12 +23,13 @@ const HomePage = () => {
           Learn Sign Language!
         </Heading>
         <HStack justifyContent='center'>
-          <Link to='/signing'>
-            <Button>Learn Signing</Button>
-          </Link>
           <Link to='/reading'>
-            <Button backgroundColor='brand.100' color='black'>
-              Learn Reading
+            <Button
+              backgroundColor='brand.100'
+              color='black'
+              _hover={{ backgroundColor: "brand.200" }}
+            >
+              Start Learning
             </Button>
           </Link>
         </HStack>
