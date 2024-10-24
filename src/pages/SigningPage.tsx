@@ -20,7 +20,7 @@ const SigningPage = () => {
       </Text>
       <Text color='red' paddingBottom={1} fontSize='small' fontWeight='light'>
         <InfoOutlineIcon marginRight={2} />
-        Our live detection server is down! Please use this{" "}
+        Please use this{" "}
         <a href='https://github.com/dngvbngc/sign-language-detection-flask'>
           <strong>local application</strong>
         </a>

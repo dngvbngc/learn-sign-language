@@ -34,8 +34,7 @@ const HomePage = () => {
           </Link>
         </HStack>
         <Text fontStyle='helvetica' fontSize='large' padding={5}>
-          Practice reading ASL through interactive music games, and signing
-          through your webcam. Your sign to sign!
+          Practice reading ASL through interactive music games. Your sign to sign!
         </Text>
         <Text fontSize='small'>
           @dngvbngc 2024.{" "}
